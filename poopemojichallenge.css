@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+/*
+
+Poop Emoji Challenge
+
+Author: Jennifer Martin
+Date: July 15, 2021
+
+*/
+
+.red {
+    background-color: red;
+    color: red;
+}
+.orange {
+    background-color: orange;
+    color: orange;
+}
+.yellow {
+    background-color: yellow;
+    color:yellow;
+}
+.green {
+    background-color: green;
+    color: green;
+}
+.blue {
+    background-color: blue;
+    color: blue;
+}
+.purple {
+    background-color: purple;
+    color: purple;
+}
+.black {
+    background-color: black;
+    color: black;
+}
+.white {
+    background-color: white;
+    color: white;
+}
+table {
+    outline: 2px solid black;
+    border-collapse:collapse;
+    margin: 30px auto;
+    font-weight:bold;
+}
+td {
+    width:40px;
+    height: 40px;
+    vertical-align: auto;
+    text-align: center;
+    font-size:60%;
+}
+.top {
+    border-top: 2px solid black;
+}
+.bottom {
+    border-bottom: 2px solid black;
+}
+.left {
+    border-left: 2px solid black;
+}
+.right {
+    border-right: 2px solid black;
+}
+table:hover td{
+    outline: 0.5px dashed grey;
+    background-color: white;
+}
+.eyes {
+    height:80px;
+}
+.verticaltext {
+    writing-mode: vertical-lr;
+}
+table:hover .yellow {
+    color:black;
+}
